@@ -238,3 +238,5 @@ Temporary Items
 # Editors stuff:
 .idea/
 
+# JavaScript
+node_modules/

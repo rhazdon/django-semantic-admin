@@ -10,8 +10,23 @@ Note: This project is under high development right now and not production ready 
 
 2. Add the package to your `INSTALLED_APPS`
 
+3. Add the path to urls 
+```
+urlpatterns = [
+    # ...
+    path("semantic_admin/", include("semantic_admin.urls")),
+    # ...
+]
+```
+
 
 ## Development
+
+1. Install build dependencies:
+``` bash
+yarn install
+
+```
 
 The easiest way to work on the admin theme is to work with the demo app. 
 

@@ -1,5 +1,16 @@
 {
   "name": "django-semantic-admin",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-help": "^1.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-uglify": "^3.0.2",
+    "merge-stream": "^2.0.0",
+    "semantic-ui-css": "^2.4.1"
+  }
 }
